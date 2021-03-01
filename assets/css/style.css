@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#content{
+    position: relative;
+    background: rgb(102,204,255);
+    width: 560px;
+    height: 320px;
+    display: block;
+    margin: 100px auto;
+}
+
+.block{
+    position: absolute ;
+    width: 100px;
+    height: 20px;
+    background: blue;
+
+}
+.player{
+    position: absolute ;
+    width: 100px;
+    height: 20px;
+    background: orange;
+
+}
+.ball{
+    position: absolute ;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: wheat;
+
+}
